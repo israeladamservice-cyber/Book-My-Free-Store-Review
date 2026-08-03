@@ -1,2 +1,298 @@
-# Book-My-Free-Store-Review
-Book My Free Store Review
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Book Your Free Store Review</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+
+background:#f6f9fc;
+color:#222;
+}
+
+.container{
+
+max-width:1100px;
+margin:auto;
+padding:60px 20px;
+}
+
+.hero{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap;
+gap:50px;
+}
+
+.left{
+
+flex:1;
+min-width:320px;
+}
+
+.left h1{
+
+font-size:55px;
+line-height:1.1;
+margin-bottom:20px;
+color:#16392e;
+}
+
+.left h1 span{
+
+color:#0b8457;
+}
+
+.left p{
+
+font-size:18px;
+line-height:1.8;
+color:#555;
+margin-bottom:35px;
+
+}
+
+.features{
+
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:18px;
+margin-bottom:40px;
+}
+
+.feature{
+
+background:white;
+padding:18px;
+border-radius:12px;
+box-shadow:0 8px 25px rgba(0,0,0,.07);
+
+}
+
+.feature h3{
+
+font-size:18px;
+margin-bottom:8px;
+color:#16392e;
+}
+
+.feature p{
+
+font-size:15px;
+color:#666;
+line-height:1.6;
+}
+
+.right{
+
+flex:1;
+min-width:350px;
+}
+
+.form-box{
+
+background:white;
+padding:35px;
+border-radius:20px;
+box-shadow:0 20px 50px rgba(0,0,0,.10);
+
+}
+
+.form-box h2{
+
+text-align:center;
+margin-bottom:10px;
+color:#16392e;
+}
+
+.form-box p{
+
+text-align:center;
+margin-bottom:25px;
+color:#666;
+}
+
+input{
+
+width:100%;
+padding:16px;
+margin-bottom:18px;
+border:1px solid #ddd;
+border-radius:10px;
+font-size:16px;
+}
+
+textarea{
+
+width:100%;
+padding:16px;
+height:130px;
+resize:none;
+border:1px solid #ddd;
+border-radius:10px;
+margin-bottom:20px;
+font-size:16px;
+}
+
+button{
+
+width:100%;
+padding:18px;
+border:none;
+background:#16392e;
+color:white;
+font-size:20px;
+font-weight:bold;
+border-radius:10px;
+cursor:pointer;
+transition:.3s;
+
+}
+
+button:hover{
+
+background:#0b8457;
+transform:translateY(-3px);
+
+}
+
+.note{
+
+margin-top:18px;
+text-align:center;
+font-size:14px;
+color:#888;
+
+}
+
+.footer{
+
+text-align:center;
+padding:40px;
+color:#666;
+font-size:15px;
+
+}
+
+@media(max-width:900px){
+
+.hero{
+
+flex-direction:column;
+
+}
+
+.left h1{
+
+font-size:40px;
+
+}
+
+.features{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<div class="hero">
+
+<div class="left">
+
+<h1>Book Your <span>FREE</span><br>Store Review</h1>
+
+<p>
+Want more traffic, higher conversions, and more sales?
+
+I'll personally review your Shopify, Etsy, Wix, WooCommerce, or eCommerce store and identify what's stopping you from making consistent sales.
+</p>
+
+<div class="features">
+
+<div class="feature">
+<h3>✓ Homepage Review</h3>
+<p>Improve trust, branding and first impressions.</p>
+</div>
+
+<div class="feature">
+<h3>✓ Conversion Audit</h3>
+<p>Discover why visitors aren't becoming customers.</p>
+</div>
+
+<div class="feature">
+<h3>✓ Marketing Tips</h3>
+<p>Get practical strategies to increase sales.</p>
+</div>
+
+<div class="feature">
+<h3>✓ FREE Recommendations</h3>
+<p>Receive expert suggestions with no obligation.</p>
+</div>
+
+</div>
+
+</div>
+
+<div class="right">
+
+<div class="form-box">
+
+<h2>Book My Free Store Review</h2>
+
+<p>Fill in your details below.</p>
+
+<form action="#" method="POST">
+
+<input type="text" placeholder="Full Name" required>
+
+<input type="email" placeholder="Email Address" required>
+
+<input type="text" placeholder="Store URL (Shopify, Etsy, Wix...)" required>
+
+<textarea placeholder="Tell me about your store or your biggest challenge..."></textarea>
+
+<button type="submit">
+📈 Book My Free Store Review
+</button>
+
+</form>
+
+<p class="note">
+I'll review your store and get back to you within 24 hours.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="footer">
+
+© 2026 Your Business Name • Helping eCommerce Stores Grow Faster
+
+</div>
+
+</body>
+</html>
