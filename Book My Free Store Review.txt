@@ -215,16 +215,20 @@ grid-template-columns:1fr;
         <h2>Book My Free Store Review</h2>
         <p>Fill in your details below.</p>
 
-        <!-- Form configured to send form entries directly to your Gmail -->
+        <!-- Form configured to direct form submissions to your Gmail -->
         <form action="https://formsubmit.co/awotideoluwaseun@gmail.com" method="POST">
           
-          <input type="text" name="name" placeholder="Full Name" required>
+          <!-- Optional Email Subject Customization -->
+          <input type="hidden" name="_subject" value="New Free Store Review Booking!">
+          
+          <!-- Input fields with 'name' attributes added -->
+          <input type="text" name="Full Name" placeholder="Full Name" required>
 
-          <input type="email" name="email" placeholder="Email Address" required>
+          <input type="email" name="Email Address" placeholder="Email Address" required>
 
-          <input type="text" name="store_url" placeholder="Store URL (Shopify, Etsy, Wix...)" required>
+          <input type="text" name="Store URL" placeholder="Store URL (Shopify, Etsy, Wix...)" required>
 
-          <textarea name="message" placeholder="Tell me about your store or your biggest challenge..."></textarea>
+          <textarea name="Store Details / Challenge" placeholder="Tell me about your store or your biggest challenge..."></textarea>
 
           <button type="submit">
             📈 Book My Free Store Review
